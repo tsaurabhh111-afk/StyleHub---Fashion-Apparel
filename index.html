@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StyleHub | Fashion & Apparel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="announcement">✨ Free shipping on orders above ₹999 • New season is here</div>
+  <header class="header">
+    <a class="logo" href="index.html"><span>✦</span> StyleHub</a>
+    <nav class="nav">
+      <a class="active" href="index.html">Home</a>
+      <a href="products.html?category=Men">Men</a>
+      <a href="products.html?category=Women">Women</a>
+      <a href="products.html?category=Kids">Kids</a>
+      <a href="about.html">About</a>
+    </nav>
+    <div class="actions">
+      <button class="icon-btn" onclick="focusSearch()" aria-label="Search">⌕</button>
+      <a class="icon-btn" href="account.html" aria-label="Account">♙</a>
+      <a class="icon-btn" href="cart.html" aria-label="Cart">🛍 <span id="cartCount" class="count">0</span></a>
+      <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">NEW COLLECTION • 2026</p>
+        <h1>Wear your<br><em>confidence.</em></h1>
+        <p>Curated fashion for everyday moments. Discover elevated essentials, statement pieces and timeless accessories — designed to make getting dressed feel effortless.</p>
+        <div class="hero-buttons">
+          <a class="btn btn-dark" href="products.html">Shop Collection →</a>
+          <a class="btn btn-light" href="products.html?category=Women">Explore Women</a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="hero-card">
+          <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1000&q=85" alt="Fashion collection">
+          <span>THE NEW EDIT</span>
+        </div>
+        <div class="floating-tag">UP TO<br><strong>40% OFF</strong></div>
+      </div>
+    </section>
+
+    <section class="trust-row"><div><span>🚚</span> Free shipping over ₹999</div><div><span>↩</span> Easy 7-day returns</div><div><span>🔒</span> Secure checkout</div><div><span>✦</span> Curated 2026 edits</div></section>
+
+    <section class="section">
+      <div class="section-head"><div><p class="eyebrow">SHOP BY STYLE</p><h2>Find your look</h2></div><a href="products.html">View all →</a></div>
+      <div class="category-grid">
+        <a class="category-card cat-men" href="products.html?category=Men"><div><small>01</small><h3>Men's Edit</h3><span>Shirts • Denim • Footwear</span></div></a>
+        <a class="category-card cat-women" href="products.html?category=Women"><div><small>02</small><h3>Women's Edit</h3><span>Dresses • Tops • Accessories</span></div></a>
+        <a class="category-card cat-kids" href="products.html?category=Kids"><div><small>03</small><h3>Kids' Edit</h3><span>Playwear • Basics • Shoes</span></div></a>
+      </div>
+    </section>
+
+    <section class="section soft">
+      <div class="section-head"><div><p class="eyebrow">TRENDING NOW</p><h2>Best sellers</h2></div><a href="products.html">Shop all →</a></div>
+      <div id="homeProducts" class="product-grid"></div>
+    </section>
+
+    <section class="promo">
+      <div><p class="eyebrow">STYLEHUB MEMBERS</p><h2>10% off your first order.</h2><p>Sign up for early access, exclusive drops and personalised offers.</p></div>
+      <a class="btn btn-dark" href="login.html">Join StyleHub</a>
+    </section>
+  </main>
+
+  <footer class="footer"><div><a class="logo" href="index.html"><span>✦</span> StyleHub</a><p>Modern fashion. Thoughtfully curated.</p></div><div class="footer-links"><a href="about.html">About</a><a href="products.html">Shop</a><a href="account.html">Account</a><a href="cart.html">Cart</a></div><p>© 2026 StyleHub</p></footer>
+  <script src="js/app.js"></script>
+</body>
+</html>
